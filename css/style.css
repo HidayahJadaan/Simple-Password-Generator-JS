@@ -94,3 +94,28 @@ body {
 .generate-btn:hover {
     cursor: pointer;
 }
+
+
+
+/*============================================= Responsive Part ========================================================*/
+
+@media (max-width: 650px) {
+    .pass-window {
+      width: 90%; 
+      height: auto; /* Allow the height to adjust based on content */
+    }
+  
+    .pass-window-title {
+      width: 100%; /* Make the title span the full width */
+      font-size: 32px; 
+    }
+  
+    .display {
+      width: 100%; 
+    }
+  
+    .generate-btn {
+      width: 100%;
+    }
+  }
+  
