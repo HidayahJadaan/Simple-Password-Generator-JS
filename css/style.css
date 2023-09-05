@@ -101,12 +101,12 @@ body {
 
 @media (max-width: 650px) {
     .pass-window {
-      width: 90%; 
+      width: 100%; 
       height: auto; /* Allow the height to adjust based on content */
     }
   
     .pass-window-title {
-      width: 100%; /* Make the title span the full width */
+      width: 70%; /* Make the title span the full width */
       font-size: 32px; 
     }
   
